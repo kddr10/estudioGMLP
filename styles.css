@@ -1,27 +1,38 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 .navbar {
-    background: black;
     box-shadow: 2px 2px 5px #000;
     opacity: .9;
+    align-content: center;
     
 }
+.navbar-brand {
+    width: auto;
+}
 
-
-    
 .navbar .nav-item .nav-link {
-        color: white;
+    color: #fff;
+    align-content: space-between;
+    margin-left: auto;
+}
+
+.navbar-toggler {
+    display: flex;
+    margin-left: auto;
+}
+h1 {
+    font-size-adjust: initial;
+}
+p {
+    margin: 5px;
+    padding: 10px;
+
 }
 
 .main-header {
+        background-image:url(img/derecho.jpg) ;
         position: relative;
-        background: url(/img/derecho.jpg);
-        background-size: cover;
-        min-height: 500px;
+        min-height: 850px;   
+        background-size: cover  ;
+        display: block;
        
 }
     
@@ -34,11 +45,6 @@
         height: 100%;
 }
 
-.container2 {
-    text-align: center;
-    justify-content: center;    
-    
-}
 
 .form-control, .btn {
     border-radius: 0;
@@ -64,3 +70,10 @@
 li {
     overflow: hidden;
 }
+
+.container2 {
+    display: flex;
+    align-items: center;
+
+}
+
